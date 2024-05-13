@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\projeto2_mg\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\gon\u00E7alo\\desktop\\mg\\projeto2_mg\\projeto2_mg\\states\\menustate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\states\\menustate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\projeto2_mg\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\projeto2_mg\\states\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\states\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\projeto2_mg\\states\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\states\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\projeto2_mg\\control\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\control\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\States\\GameState.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\States\\GameState.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\States\\GameState.cs",
+              "RelativeToolTip": "Projeto2_MG\\States\\GameState.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:46:04.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuState.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\States\\MenuState.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\States\\MenuState.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\States\\MenuState.cs",
+              "RelativeToolTip": "Projeto2_MG\\States\\MenuState.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwBMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:45:44.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\States\\State.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\States\\State.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\States\\State.cs",
+              "RelativeToolTip": "Projeto2_MG\\States\\State.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:45:27.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Button.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\Control\\Button.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\Control\\Button.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\Control\\Button.cs",
+              "RelativeToolTip": "Projeto2_MG\\Control\\Button.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA6wCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:45:11.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Component.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\Component.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\Component.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\Component.cs",
+              "RelativeToolTip": "Projeto2_MG\\Component.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:44:22.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\Game1.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\Game1.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\MG\\Projeto2_MG\\Projeto2_MG\\Game1.cs",
+              "RelativeToolTip": "Projeto2_MG\\Game1.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAUwFoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:15:48.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
