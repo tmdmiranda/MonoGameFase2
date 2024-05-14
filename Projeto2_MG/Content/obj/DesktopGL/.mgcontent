@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Profile>Reach</Profile>
-  <Platform>DesktopGL</Platform>
-  <Config />
-  <SourceFiles>
-    <File>C:/Users/Gonçalo/Desktop/MG/Projeto2_MG/Projeto2_MG/Content/Controls/background.png</File>
-    <File>C:/Users/Gonçalo/Desktop/MG/Projeto2_MG/Projeto2_MG/Content/Controls/Button (1).png</File>
-    <File>C:/Users/Gonçalo/Desktop/MG/Projeto2_MG/Projeto2_MG/Content/Fonts/Font.spritefont</File>
-  </SourceFiles>
-  <DestFiles>
-    <File xsi:nil="true" />
-    <File>Controls/Button.png</File>
-    <File xsi:nil="true" />
-  </DestFiles>
-</SourceFileCollection>
+<?xml version="1.0" encoding="utf-8"?><SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Profile>Reach</Profile><Platform>DesktopGL</Platform><Config /><SourceFiles><File>C:/Users/BigEp/source/repos/tmdmiranda/MonoGameFase2/Projeto2_MG/Content/background.png</File><File>C:/Users/BigEp/source/repos/tmdmiranda/MonoGameFase2/Projeto2_MG/Content/Controls/Button (1).png</File><File>C:/Users/BigEp/source/repos/tmdmiranda/MonoGameFase2/Projeto2_MG/Content/Fonts/Font.spritefont</File><File>C:/Users/BigEp/source/repos/tmdmiranda/MonoGameFase2/Projeto2_MG/Content/Textures/tiles.png</File></SourceFiles><DestFiles><File xsi:nil="true" /><File>Controls/Button.png</File><File xsi:nil="true" /><File xsi:nil="true" /></DestFiles></SourceFileCollection>
