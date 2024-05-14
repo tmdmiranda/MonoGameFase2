@@ -14,12 +14,12 @@ namespace Projeto2_MG.Main
     public class TextureHandler
     {
         //--store our "slice" rects--//
-        Rectangle[,] slices;
+        Rectangle[] slices;
 
         public TextureHandler(int texWidth)
         {
             //--init array--//
-            slices = new Rectangle[texWidth, texWidth];
+            slices = new Rectangle[texWidth];
 
             //--for clarity in slice loop--//
             int texHeight = texWidth;
@@ -29,13 +29,13 @@ namespace Projeto2_MG.Main
             {
                 for (int y = 0; y < texHeight; y += texWidth)
                 //tex width and height are always equal so safe to use tex width instead of height here
-                slices[x,y] = new Rectangle(x, y, texWidth, texHeight);
+                slices[x] = new Rectangle(x, y, texWidth, texHeight);
             }
         }
 
 
 
-        public Rectangle[,] getSlices()
+        public Rectangle[] getSlices()
         {
             return slices;
         }
