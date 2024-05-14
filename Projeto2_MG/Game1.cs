@@ -11,6 +11,9 @@ namespace Projeto2_MG
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        private const int GAME_WIDTH = 1300;
+        private const int GAME_HEIGHT = 700;
+
         private State _currentState;
 
         private State _nextState;
@@ -25,25 +28,21 @@ namespace Projeto2_MG
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            IsMouseVisible = true;
         }
 
-        /// <summary>
-        /// Allows the game to perform any initialization it needs to before starting to run.
-        /// This is where it can query for any required services and load any non-graphic
-        /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
-        /// </summary>
         protected override void Initialize()
         {
-            IsMouseVisible = true;
+            graphics.PreferredBackBufferWidth = GAME_WIDTH;
+            graphics.PreferredBackBufferHeight = GAME_HEIGHT;
+            graphics.ApplyChanges();
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+            // Adiciona o serviço SpriteBatch ao serviço de gráficos do jogo
+            Services.AddService(spriteBatch);
 
             base.Initialize();
         }
 
-        /// <summary>
-        /// LoadContent will be called once per game and is the place to load
-        /// all of your content.
-        /// </summary>
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
@@ -52,20 +51,6 @@ namespace Projeto2_MG
             _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
         }
 
-        /// <summary>
-        /// UnloadContent will be called once per game and is the place to unload
-        /// game-specific content.
-        /// </summary>
-        protected override void UnloadContent()
-        {
-            // TODO: Unload any non ContentManager content here
-        }
-
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
             if (_nextState != null)
@@ -74,30 +59,25 @@ namespace Projeto2_MG
 
                 _nextState = null;
             }
-
             _currentState.Update(gameTime);
-
             _currentState.PostUpdate(gameTime);
+
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+                Exit();
 
             base.Update(gameTime);
         }
 
-        /// <summary>
-        /// This is called when the game should draw itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            //spriteBatch.Begin();
+            GraphicsDevice.Clear(Color.DarkGray);
 
-            GraphicsDevice.Clear(Color.WhiteSmoke);
-
+            spriteBatch.Begin();
             _currentState.Draw(gameTime, spriteBatch);
-
             //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
     }
 }
-

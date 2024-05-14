@@ -25,4 +25,7 @@ C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\obj\Debug\net6.0\Projeto2_M
 C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\obj\Debug\net6.0\ref\Projeto2_MG.dll
 C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\bin\Debug\net6.0\Content\Controls\button.xnb
 C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\bin\Debug\net6.0\Content\Fonts\Font.xnb
-C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\bin\Debug\net6.0\Content\Controls\background.xnb
+C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\bin\Debug\net6.0\Content\background.xnb
+C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\bin\Debug\net6.0\Content\Tiles\image.xnb
+C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\bin\Debug\net6.0\Content\Tiles\image2.xnb
+C:\Users\Gonçalo\Desktop\MG\Projeto2_MG\Projeto2_MG\bin\Debug\net6.0\Content\Tiles\image3.xnb
