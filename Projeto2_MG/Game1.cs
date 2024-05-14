@@ -24,7 +24,7 @@ namespace Projeto2_MG
         private Texture2D[] textures = new Texture2D[10];
         private Texture2D backgroundTexture;
         private static TextureHandler slicer;
-        private Matrix _screenScaleMatrix;
+        public Matrix _screenScaleMatrix;
         private bool _isResizing;
         private Viewport _viewport;
         Rectangle[] xxyy;
@@ -121,15 +121,15 @@ namespace Projeto2_MG
             GraphicsDevice.Viewport = _viewport;
 
             spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
-            //_currentState.Draw(gameTime, spriteBatch);
-            for (int i = 0; i < GAME_WIDTH; i += tilSize)
-            {
-                for (int j = 0; j < GAME_HEIGHT; j += tilSize)
-                {
-                    spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[0], Color.White);
-               }
-            }
-           spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
+            _currentState.Draw(gameTime, spriteBatch);
+          //  for (int i = 0; i < GAME_WIDTH; i += tilSize)
+          //  {
+          //      for (int j = 0; j < GAME_HEIGHT; j += tilSize)
+          //      {
+          //          spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[0], Color.White);
+          //     }
+          //  }
+          // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
            //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
             spriteBatch.End();
 

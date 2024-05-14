@@ -17,6 +17,7 @@ namespace Projeto2_MG.States
         // Variáveis para armazenar a largura e altura da tela
         private int screenWidth;
         private int screenHeight;
+        private Game1 _game1 = new Game1();
 
         // Construtor da classe MenuState
         public MenuState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content)
@@ -75,9 +76,12 @@ namespace Projeto2_MG.States
 
         // Método para desenhar os componentes na tela
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
-        {
+        {   
+            spriteBatch.Begin(transformMatrix: _game1._screenScaleMatrix);
+            spriteBatch.End();
             foreach (var component in _components)
-                component.Draw(gameTime, spriteBatch);
+                { component.Draw(gameTime, spriteBatch);  }
+            
         }
 
         // Método chamado quando o botão "Credits" é clicado
