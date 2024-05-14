@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Projeto2_MG.Main;
 
 namespace Projeto2_MG.States
 {
@@ -77,8 +78,6 @@ namespace Projeto2_MG.States
         // Método para desenhar os componentes na tela
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {   
-            spriteBatch.Begin(transformMatrix: _game1._screenScaleMatrix);
-            spriteBatch.End();
             foreach (var component in _components)
                 { component.Draw(gameTime, spriteBatch);  }
             

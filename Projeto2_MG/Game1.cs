@@ -12,6 +12,7 @@ namespace Projeto2_MG
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        TextureHandler textureHandler;
 
         private int GAME_WIDTH = 1300;
         private int GAME_HEIGHT = 700;
@@ -29,6 +30,7 @@ namespace Projeto2_MG
         private Viewport _viewport;
         Rectangle[] xxyy;
 
+
         public void ChangeState(State state)
         {
             _nextState = state;
@@ -45,7 +47,7 @@ namespace Projeto2_MG
             IsMouseVisible = true;
             Window.AllowUserResizing = true;
             Window.ClientSizeChanged += OnClientSizeChanged;
-           
+            textureHandler = new TextureHandler(Content, GraphicsDevice);
 
         }
 
@@ -164,7 +166,6 @@ namespace Projeto2_MG
                 MinDepth = 0,
                 MaxDepth = 1
             };
-
         }
     }
 }
