@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projeto2_MG.Control.Guns
 {
-    internal class Pistol: Gun
+    public class Pistol: Gun
     {
 
     }

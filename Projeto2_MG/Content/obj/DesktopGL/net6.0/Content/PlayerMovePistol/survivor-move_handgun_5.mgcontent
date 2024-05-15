@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/PlayerMovePistol/survivor-move_handgun_5.png</SourceFile>
-  <SourceTime>2024-05-15T11:12:09.800125+01:00</SourceTime>
-  <DestFile>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/bin/DesktopGL/Content/PlayerMovePistol/survivor-move_handgun_5.xnb</DestFile>
-  <DestTime>2024-05-15T11:23:34.0334687+01:00</DestTime>
+  <SourceFile>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/PlayerMovePistol/survivor-move_handgun_5.png</SourceFile>
+  <SourceTime>2024-05-15T11:48:33.9630581+01:00</SourceTime>
+  <DestFile>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/bin/DesktopGL/Content/PlayerMovePistol/survivor-move_handgun_5.xnb</DestFile>
+  <DestTime>2024-05-15T11:49:10.1800942+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

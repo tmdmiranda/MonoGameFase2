@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/EnemyAni/skeleton-attack_8.png</SourceFile>
-  <SourceTime>2024-05-15T11:12:09.7801254+01:00</SourceTime>
-  <DestFile>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/bin/DesktopGL/EnemyAni/skeleton-attack_8.xnb</DestFile>
-  <DestTime>2024-05-15T11:24:03.7448174+01:00</DestTime>
+  <SourceFile>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/EnemyAni/skeleton-attack_8.png</SourceFile>
+  <SourceTime>2024-05-15T11:48:33.8849468+01:00</SourceTime>
+  <DestFile>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/bin/DesktopGL/EnemyAni/skeleton-attack_8.xnb</DestFile>
+  <DestTime>2024-05-15T11:49:38.5652989+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -2,7 +2,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Projeto2_MG.Main;
 using Projeto2_MG.States;
 using System;
 using System.Collections.Generic;
@@ -12,7 +11,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Reflection.Emit;
 
-namespace Projeto2_MG.Main
+namespace Projeto2_MG.Map
 {
     public class MapLevel
     {
@@ -28,17 +27,17 @@ namespace Projeto2_MG.Main
             int colCount = linhas[0].Length;
 
             map = new char[colCount, lineCount];
-            for (int x = 0; x < colCount; x++) 
+            for (int x = 0; x < colCount; x++)
             {
                 for (int y = 0; y < lineCount; y++)
                 {
                     map[x, y] = linhas[y][x];
                 }
             }
-            
+
         }
 
-        public void drawMap(SpriteBatch _spriteBatch, Texture2D text, Rectangle rect1,Rectangle rect2)
+        public void drawMap(SpriteBatch _spriteBatch, Texture2D text, Rectangle rect1, Rectangle rect2)
         {
             Vector2 position = new Vector2();
             for (int x = 0; x < map.GetLength(0); x++)
@@ -50,10 +49,10 @@ namespace Projeto2_MG.Main
                     switch (map[x, y])
                     {
                         case '0':
-                            _spriteBatch.Draw(text,position, rect1, Color.White);
+                            _spriteBatch.Draw(text, position, rect1, Color.White);
                             break;
                         case '1':
-                            _spriteBatch.Draw(text,position, rect2, Color.White);
+                            _spriteBatch.Draw(text, position, rect2, Color.White);
                             break;
                     }
                 }

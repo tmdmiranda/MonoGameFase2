@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Projeto2_MG.Main;
+using Projeto2_MG.Map;
 using Projeto2_MG.States;
 using System;
 
@@ -13,6 +14,9 @@ namespace Projeto2_MG
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Texture2D[] runningTextures;
+        int counter;
+        int activeframe;
         private int GAME_WIDTH = 1300;
         private int GAME_HEIGHT = 700;
         private int _virtualWidth = 1300;
@@ -21,23 +25,24 @@ namespace Projeto2_MG
         private State _currentState;
         private int tilSize = 64;
         private State _nextState;
-        private Texture2D[] textures = new Texture2D[10];
+        private Texture2D[] textures = new Texture2D[20];
         private Texture2D backgroundTexture;
+        private Player _player;
         public Matrix _screenScaleMatrix;
         private bool _isResizing;
         private Viewport _viewport;
         Rectangle[] xxyy;
-
 
         public void ChangeState(State state)
         {
             _nextState = state;
         }
 
-        public Texture2D getTexture(string textureName)
+        public Texture2D getTexture(string textureName, int x)
         {
-            return Content.Load<Texture2D>("Textures/" + textureName);
+                return Content.Load<Texture2D>("Textures/" + textureName);
         }
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -45,12 +50,11 @@ namespace Projeto2_MG
             IsMouseVisible = true;
             Window.AllowUserResizing = true;
             Window.ClientSizeChanged += OnClientSizeChanged;
-
         }
 
         private void OnClientSizeChanged(object sender, EventArgs e)
         {
-            if(!_isResizing && Window.ClientBounds.Width > 0 && Window.ClientBounds.Height > 0)
+            if (!_isResizing && Window.ClientBounds.Width > 0 && Window.ClientBounds.Height > 0)
             {
                 _isResizing = true;
                 updateScreenScaleMatrix();
@@ -60,14 +64,12 @@ namespace Projeto2_MG
 
         public void OnResize(Object sender, EventArgs e)
         {
-
             if ((graphics.PreferredBackBufferWidth != graphics.GraphicsDevice.Viewport.Width) ||
                 (graphics.PreferredBackBufferHeight != graphics.GraphicsDevice.Viewport.Height))
             {
                 graphics.PreferredBackBufferWidth = graphics.GraphicsDevice.Viewport.Width;
                 graphics.PreferredBackBufferHeight = graphics.GraphicsDevice.Viewport.Height;
                 graphics.ApplyChanges();
-
             }
         }
 
@@ -89,10 +91,17 @@ namespace Projeto2_MG
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            textures[0] = getTexture("tiles");
-            xxyy[0] = new Rectangle(384, 320,tilSize,tilSize);
-            xxyy[1] = new Rectangle(768, 0, tilSize, tilSize);
+            textures[0] = getTexture("tiles", 0);
+            xxyy[0] = new Rectangle(384, 320, tilSize, tilSize);
+            xxyy[1] = new Rectangle(0, 768, tilSize, tilSize);
             _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
+
+            // Carrega a textura do player
+            runningTextures = new Texture2D[20];
+            for(int i = 0; i < 20; i++)
+            {
+                runningTextures[i] = Content.Load<Texture2D>($"PlayerMovePistol/survivor-move_handgun_{i}");
+            }
         }
 
         protected override void Update(GameTime gameTime)
@@ -100,15 +109,17 @@ namespace Projeto2_MG
             if (_nextState != null)
             {
                 _currentState = _nextState;
-
                 _nextState = null;
             }
+
             _currentState.Update(gameTime);
             _currentState.PostUpdate(gameTime);
 
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            // Atualiza o player
+            //_player.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -120,17 +131,10 @@ namespace Projeto2_MG
             GraphicsDevice.Viewport = _viewport;
 
             spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
-           // _currentState.Draw(gameTime, spriteBatch);
-            map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1]);
-          //  for (int i = 0; i < GAME_WIDTH; i += tilSize)
-          //  {
-          //      for (int j = 0; j < GAME_HEIGHT; j += tilSize)
-          //      {
-          //          spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[0], Color.White);
-          //     }
-          //  }
-          // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
-           //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
+            //_currentState.Draw(gameTime, spriteBatch);
+            map.drawMap(spriteBatch, textures[0], xxyy[0], xxyy[1]);
+            // Desenha o player
+            spriteBatch.Draw(runningTextures[activeframe], new Rectangle(100, 100, 100, 100), Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
@@ -143,8 +147,8 @@ namespace Projeto2_MG
 
             if (screenWidth / _virtualWidth > screenHeight / _virtualHeight)
             {
-                float aspect = screenHeight/ GAME_HEIGHT;
-                _virtualWidth = (int)(aspect *GAME_WIDTH);
+                float aspect = screenHeight / GAME_HEIGHT;
+                _virtualWidth = (int)(aspect * GAME_WIDTH);
                 _virtualHeight = (int)screenHeight;
             }
             else
@@ -152,7 +156,8 @@ namespace Projeto2_MG
                 float aspect = screenWidth / GAME_WIDTH;
                 _virtualWidth = (int)screenWidth;
                 _virtualHeight = (int)(aspect * GAME_HEIGHT);
-            }   
+            }
+
             _screenScaleMatrix = Matrix.CreateScale(_virtualWidth / (float)GAME_WIDTH);
 
             _viewport = new Viewport
