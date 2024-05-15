@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\gon\u00E7alo\\desktop\\github\\mg2\\projeto2_mg\\main\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\main\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\gon\u00E7alo\\desktop\\github\\mg2\\projeto2_mg\\content\\pistolmove\\survivor-move_handgun.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\content\\pistolmove\\survivor-move_handgun.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\gon\u00E7alo\\desktop\\github\\mg2\\projeto2_mg\\main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,35 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Game1.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\Game1.cs",
-              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Game1.cs",
-              "RelativeToolTip": "Projeto2_MG\\Game1.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAwIsAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T13:34:40.239Z"
+              "Title": "survivor-move_handgun.png",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Content\\PistolMove\\survivor-move_handgun.png",
+              "RelativeDocumentMoniker": "Projeto2_MG\\Content\\PistolMove\\survivor-move_handgun.png",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Content\\PistolMove\\survivor-move_handgun.png",
+              "RelativeToolTip": "Projeto2_MG\\Content\\PistolMove\\survivor-move_handgun.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-15T16:45:32.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AnimatedSprite.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\AnimatedSprite.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\Main\\AnimatedSprite.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\AnimatedSprite.cs",
+              "RelativeToolTip": "Projeto2_MG\\Main\\AnimatedSprite.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAxwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:19:22.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\Player.cs",
               "RelativeDocumentMoniker": "Projeto2_MG\\Main\\Player.cs",
               "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\Player.cs",
               "RelativeToolTip": "Projeto2_MG\\Main\\Player.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA5wCQAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T17:55:04.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Game1.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\Game1.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Game1.cs",
+              "RelativeToolTip": "Projeto2_MG\\Game1.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAwIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:34:40.239Z",
               "EditorCaption": ""
             }
           ]

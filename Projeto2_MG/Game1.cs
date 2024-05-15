@@ -32,6 +32,7 @@ namespace Projeto2_MG
         private bool _isResizing;
         private Viewport _viewport;
         Rectangle[] xxyy;
+        Player player;
 
         public void ChangeState(State state)
         {
@@ -97,13 +98,8 @@ namespace Projeto2_MG
             xxyy[2] = new Rectangle(256, 192, tilSize / 3, tilSize / 3);
             xxyy[3] = new Rectangle(512, 576, tilSize / 3, tilSize / 3);
             _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
-
-            // Carrega a textura do player
-            runningTextures = new Texture2D[20];
-            for(int i = 0; i < 20; i++)
-            {
-                runningTextures[i] = Content.Load<Texture2D>($"PlayerMovePistol/survivor-move_handgun_{i}");
-            }
+            player = new Player(new Vector2(100,100));
+            player.LoadContent(Content);
         }
 
         protected override void Update(GameTime gameTime)
@@ -121,18 +117,18 @@ namespace Projeto2_MG
                 Exit();
 
             // Atualiza o player
-            //_player.Update(gameTime);
+            player.Update(gameTime);
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
+            spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
             GraphicsDevice.Clear(Color.Black);
 
             GraphicsDevice.Viewport = _viewport;
 
-            spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
            // _currentState.Draw(gameTime, spriteBatch);
             
            for (int i = 0; i < GAME_WIDTH; i += tilSize / 3)
@@ -140,12 +136,13 @@ namespace Projeto2_MG
                for (int j = 0; j < GAME_HEIGHT; j += tilSize / 3)
                {
                    spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[2], Color.White);
-              }
-          }
-          map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1], xxyy[3]);
+               }
+           }
+            map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1], xxyy[3]);
             // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
             //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
-            spriteBatch.Draw(runningTextures[activeframe], new Rectangle(32, 32, 32, 32), Color.White);
+            player.Draw(spriteBatch);
+
             spriteBatch.End();
 
             base.Draw(gameTime);
