@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\gon\u00E7alo\\desktop\\github\\mg2\\projeto2_mg\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\projeto2_mg\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "Projeto2_MG\\Game1.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAIwAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T13:34:40.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T13:34:40.239Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Projeto2_MG\\Main\\Player.cs",
               "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\Player.cs",
               "RelativeToolTip": "Projeto2_MG\\Main\\Player.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwDUAAABIAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T17:55:04.131Z",
               "EditorCaption": ""
