@@ -14,7 +14,7 @@ namespace Projeto2_MG.Main
 {
      class Player : AnimatedSprite
     {
-        float mySpeed = 50;
+        float mySpeed = 150;
 
         public Player(Vector2 pos) : base(pos) 
         {
@@ -34,7 +34,7 @@ namespace Projeto2_MG.Main
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
             sDirection *= mySpeed;
-            sPosition *= (sDirection * deltaTime);
+            sPosition += (sDirection * deltaTime);
 
             base.Update(gameTime);
         }

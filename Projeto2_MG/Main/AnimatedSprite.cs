@@ -10,7 +10,7 @@ namespace Projeto2_MG.Main
 {
     abstract class AnimatedSprite
     {
-        protected Vector2 sPosition;
+        public Vector2 sPosition;
         protected Texture2D sTexture;
         private Rectangle[] sRectangles;
         private double TimeElapsed;

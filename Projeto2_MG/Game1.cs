@@ -18,7 +18,6 @@ namespace Projeto2_MG
         private float _mouseSpeed = 0.05f;
         private Vector2 _cameraTarget = Vector2.Zero;
         private int _oldMouseZoom;
-
         Texture2D[] runningTextures;
         int counter;
         int activeframe;
@@ -39,6 +38,7 @@ namespace Projeto2_MG
         private Camera _camera;
         Rectangle[] xxyy;
         Player player;
+        AnimatedSprite animatedSprite;
 
         public void ChangeState(State state)
         {
@@ -54,7 +54,7 @@ namespace Projeto2_MG
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            IsMouseVisible = true;
+            IsMouseVisible = false;
             Window.AllowUserResizing = true;
             Window.ClientSizeChanged += OnClientSizeChanged;
         }
@@ -112,52 +112,52 @@ namespace Projeto2_MG
             xxyy[1] = new Rectangle(0, 768, tilSize / 3, tilSize / 3);
             xxyy[2] = new Rectangle(256, 192, tilSize / 3, tilSize / 3);
             xxyy[3] = new Rectangle(512, 576, tilSize / 3, tilSize / 3);
-            _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
+           // _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
             player = new Player(new Vector2(100,100));
             player.LoadContent(Content);
         }
 
         protected override void Update(GameTime gameTime)
         {
-            if (_nextState != null)
-            {
-                _currentState = _nextState;
-                _nextState = null;
-            }
+           // if (_nextState != null)
+           // {
+          //      _currentState = _nextState;
+          //      _nextState = null;
+          //  }
+            player.Update(gameTime);
 
-            
             Point mousePosition = Mouse.GetState().Position;
             Vector2 mouseMovement = mousePosition.ToVector2() - _oldMousePosition.ToVector2();
             _oldMousePosition = mousePosition;
-            _cameraTarget += mouseMovement * _mouseSpeed * new Vector2(-1f, 1f);
+            _cameraTarget = player.sPosition;
             _camera.LookAt(_cameraTarget);
 
-            int zoomValue = Mouse.GetState().ScrollWheelValue;
+            int zoomValue = Mouse.GetState().HorizontalScrollWheelValue;
             int delta = (zoomValue - _oldMouseZoom) / 120;
             if (delta != 0)
             {
                 Console.WriteLine(delta);
             }
             _oldMouseZoom = zoomValue;
-            _camera.Zoom(delta);
+            _camera.Zoom(100000);
 
 
 
-            _currentState.Update(gameTime);
-            _currentState.PostUpdate(gameTime);
+           // _currentState.Update(gameTime);
+          //  _currentState.PostUpdate(gameTime);
 
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
             // Atualiza o player
-            player.Update(gameTime);
+            
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
+           spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
             GraphicsDevice.Clear(Color.Black);
 
             GraphicsDevice.Viewport = _viewport;
