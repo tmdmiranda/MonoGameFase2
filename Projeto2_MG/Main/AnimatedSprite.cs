@@ -10,12 +10,13 @@ namespace Projeto2_MG.Main
 {
     abstract class AnimatedSprite
     {
-        private Vector2 sPosition;
+        protected Vector2 sPosition;
         protected Texture2D sTexture;
         private Rectangle[] sRectangles;
         private double TimeElapsed;
         private double timeToUpdate;
         private int frameIndex;
+        protected Vector2 sDirection = Vector2.Zero;
 
 
 
@@ -39,7 +40,7 @@ namespace Projeto2_MG.Main
             }
         }
 
-        public void Update(GameTime gameTime)
+        public virtual void Update(GameTime gameTime)
         {
             TimeElapsed += gameTime.ElapsedGameTime.TotalSeconds;
 
