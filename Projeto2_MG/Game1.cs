@@ -93,6 +93,7 @@ namespace Projeto2_MG
             xxyy[0] = new Rectangle(384, 320,tilSize / 3,tilSize / 3);
             xxyy[1] = new Rectangle(0, 768, tilSize / 3, tilSize / 3);
             xxyy[2] = new Rectangle(256, 192, tilSize / 3, tilSize / 3);
+            xxyy[3] = new Rectangle(512, 576, tilSize / 3, tilSize / 3);
             _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
         }
 
@@ -130,7 +131,7 @@ namespace Projeto2_MG
                    spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[2], Color.White);
               }
           }
-          map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1]);
+          map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1], xxyy[3]);
           // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
            //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
             spriteBatch.End();

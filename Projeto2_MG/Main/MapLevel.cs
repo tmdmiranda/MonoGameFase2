@@ -44,7 +44,7 @@ namespace Projeto2_MG.Main
             
         }
 
-        public void drawMap(SpriteBatch _spriteBatch, Texture2D text, Rectangle rect1,Rectangle rect2)
+        public void drawMap(SpriteBatch _spriteBatch, Texture2D text, Rectangle rect1,Rectangle rect2, Rectangle rect3)
         {
             Height = 1920;
             Width = 1080;
@@ -62,6 +62,9 @@ namespace Projeto2_MG.Main
                             break;
                         case '1':
                             _spriteBatch.Draw(text,position, rect2, Color.White);
+                            break;
+                        case '2':
+                            _spriteBatch.Draw(text,position, rect3, Color.White);
                             break;
                     }
                 }
