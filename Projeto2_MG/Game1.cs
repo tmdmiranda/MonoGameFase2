@@ -13,10 +13,10 @@ namespace Projeto2_MG
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        private int GAME_WIDTH = 1300;
-        private int GAME_HEIGHT = 700;
-        private int _virtualWidth = 1300;
-        private int _virtualHeight = 700;
+        private int GAME_WIDTH = 1920;
+        private int GAME_HEIGHT = 1080;
+        private int _virtualWidth = 1920;
+        private int _virtualHeight = 1080;
         private MapLevel map = new MapLevel();
         private State _currentState;
         private int tilSize = 64;
@@ -90,8 +90,9 @@ namespace Projeto2_MG
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             textures[0] = getTexture("tiles");
-            xxyy[0] = new Rectangle(384, 320,tilSize,tilSize);
-            xxyy[1] = new Rectangle(768, 0, tilSize, tilSize);
+            xxyy[0] = new Rectangle(384, 320,tilSize / 3,tilSize / 3);
+            xxyy[1] = new Rectangle(0, 768, tilSize / 3, tilSize / 3);
+            xxyy[2] = new Rectangle(256, 192, tilSize / 3, tilSize / 3);
             _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
         }
 
@@ -121,14 +122,15 @@ namespace Projeto2_MG
 
             spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
            // _currentState.Draw(gameTime, spriteBatch);
-            map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1]);
-          //  for (int i = 0; i < GAME_WIDTH; i += tilSize)
-          //  {
-          //      for (int j = 0; j < GAME_HEIGHT; j += tilSize)
-          //      {
-          //          spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[0], Color.White);
-          //     }
-          //  }
+            
+           for (int i = 0; i < GAME_WIDTH; i += tilSize / 3)
+           {
+               for (int j = 0; j < GAME_HEIGHT; j += tilSize / 3)
+               {
+                   spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[2], Color.White);
+              }
+          }
+          map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1]);
           // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
            //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
             spriteBatch.End();
