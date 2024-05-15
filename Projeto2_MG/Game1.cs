@@ -14,6 +14,11 @@ namespace Projeto2_MG
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        private Point _oldMousePosition;
+        private float _mouseSpeed = 0.05f;
+        private Vector2 _cameraTarget = Vector2.Zero;
+        private int _oldMouseZoom;
+
         Texture2D[] runningTextures;
         int counter;
         int activeframe;
@@ -31,6 +36,7 @@ namespace Projeto2_MG
         public Matrix _screenScaleMatrix;
         private bool _isResizing;
         private Viewport _viewport;
+        private Camera _camera;
         Rectangle[] xxyy;
         Player player;
 
@@ -85,12 +91,21 @@ namespace Projeto2_MG
             updateScreenScaleMatrix();
             xxyy = new Rectangle[10];
             map.LoadMap("level1.txt");
+            //_camera = new Camera(graphics, new Vector2(20, 15));
+            _camera = new Camera(graphics, width: 40f);
+            _oldMousePosition = Mouse.GetState().Position;
+            _oldMouseZoom = Mouse.GetState().ScrollWheelValue;
+
+
+
+
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
+            backgroundTexture = Content.Load<Texture2D>("background");
             spriteBatch = new SpriteBatch(GraphicsDevice);
             textures[0] = getTexture("tiles");
             xxyy[0] = new Rectangle(384, 320,tilSize / 3,tilSize / 3);
@@ -110,6 +125,24 @@ namespace Projeto2_MG
                 _nextState = null;
             }
 
+            
+            Point mousePosition = Mouse.GetState().Position;
+            Vector2 mouseMovement = mousePosition.ToVector2() - _oldMousePosition.ToVector2();
+            _oldMousePosition = mousePosition;
+            _cameraTarget += mouseMovement * _mouseSpeed * new Vector2(-1f, 1f);
+            _camera.LookAt(_cameraTarget);
+
+            int zoomValue = Mouse.GetState().ScrollWheelValue;
+            int delta = (zoomValue - _oldMouseZoom) / 120;
+            if (delta != 0)
+            {
+                Console.WriteLine(delta);
+            }
+            _oldMouseZoom = zoomValue;
+            _camera.Zoom(delta);
+
+
+
             _currentState.Update(gameTime);
             _currentState.PostUpdate(gameTime);
 
@@ -128,10 +161,15 @@ namespace Projeto2_MG
             GraphicsDevice.Clear(Color.Black);
 
             GraphicsDevice.Viewport = _viewport;
+            Vector2 pos = new Vector2(10, 7.5f);
+            Vector2 size = Vector2.One;
+            pos = _camera.Position2Pixels(pos);
+            size = _camera.Length2Pixels(size);
 
-           // _currentState.Draw(gameTime, spriteBatch);
-            
-           for (int i = 0; i < GAME_WIDTH; i += tilSize / 3)
+            _camera.LookAt(new Vector2(20, 7.5f));
+            // _currentState.Draw(gameTime, spriteBatch);
+
+            for (int i = 0; i < GAME_WIDTH; i += tilSize / 3)
            {
                for (int j = 0; j < GAME_HEIGHT; j += tilSize / 3)
                {
@@ -141,6 +179,9 @@ namespace Projeto2_MG
             map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1], xxyy[3]);
             // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
             //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
+
+
+
             player.Draw(spriteBatch);
 
             spriteBatch.End();

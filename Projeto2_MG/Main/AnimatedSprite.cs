@@ -60,7 +60,7 @@ namespace Projeto2_MG.Main
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(sTexture, sPosition, sRectangles[frameIndex], Color.White);
+          spriteBatch.Draw(sTexture, sPosition, sRectangles[frameIndex], Color.White);
         }
 
     }

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Projeto2_MG",
+    "\\Projeto2_MG\\Main"
   ],
-  "SelectedNode": "\\Projeto2_MG.sln (Projeto2_MG\\Projeto2_MG.sln)",
+  "SelectedNode": "\\Projeto2_MG\\Main\\PLayer.cs",
   "PreviewInSolutionExplorer": false
 }

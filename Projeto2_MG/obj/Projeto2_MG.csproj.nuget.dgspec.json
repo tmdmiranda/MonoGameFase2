@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gonçalo\\Desktop\\Github\\MG2\\Projeto2_MG\\Projeto2_MG.csproj": {}
+    "C:\\Users\\BigEp\\Source\\Repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Projeto2_MG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gonçalo\\Desktop\\Github\\MG2\\Projeto2_MG\\Projeto2_MG.csproj": {
+    "C:\\Users\\BigEp\\Source\\Repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Projeto2_MG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gonçalo\\Desktop\\Github\\MG2\\Projeto2_MG\\Projeto2_MG.csproj",
+        "projectUniqueName": "C:\\Users\\BigEp\\Source\\Repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Projeto2_MG.csproj",
         "projectName": "Projeto2_MG",
-        "projectPath": "C:\\Users\\Gonçalo\\Desktop\\Github\\MG2\\Projeto2_MG\\Projeto2_MG.csproj",
-        "packagesPath": "C:\\Users\\Gonçalo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gonçalo\\Desktop\\Github\\MG2\\Projeto2_MG\\obj\\",
+        "projectPath": "C:\\Users\\BigEp\\Source\\Repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Projeto2_MG.csproj",
+        "packagesPath": "C:\\Users\\BigEp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BigEp\\Source\\Repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "H:\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gonçalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BigEp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,6 +70,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
