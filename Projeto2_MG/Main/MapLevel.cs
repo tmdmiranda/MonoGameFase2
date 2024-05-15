@@ -10,7 +10,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using Microsoft.Xna.Framework.Graphics;
 using System.Reflection.Emit;
 
 namespace Projeto2_MG.Main
@@ -21,7 +20,7 @@ namespace Projeto2_MG.Main
         public int tileSize = 64;
         public List<Point> tiles;
 
-        void LoadMap(string levelFile)
+        public void LoadMap(string levelFile)
         {
             tiles = new List<Point>();
             string[] linhas = File.ReadAllLines($"Content/{levelFile}");
@@ -33,15 +32,15 @@ namespace Projeto2_MG.Main
             {
                 for (int y = 0; y < lineCount; y++)
                 {
-
+                    map[x, y] = linhas[y][x];
                 }
             }
             
         }
 
-      /*  void drawMap(SpriteBatch _spriteBatch)
+        public void drawMap(SpriteBatch _spriteBatch, Texture2D text, Rectangle rect1,Rectangle rect2)
         {
-            Rectangle position = new Rectangle(0, 0, tileSize, tileSize);
+            Vector2 position = new Vector2();
             for (int x = 0; x < map.GetLength(0); x++)
             {
                 for (int y = 0; y < map.GetLength(1); y++)
@@ -50,16 +49,16 @@ namespace Projeto2_MG.Main
                     position.Y = y * tileSize;
                     switch (map[x, y])
                     {
-                        case '.':
-                            _spriteBatch.Draw(dot, position, Color.White);
+                        case '0':
+                            _spriteBatch.Draw(text,position, rect1, Color.White);
                             break;
-                        case 'X':
-                            _spriteBatch.Draw(wall, position, Color.White);
+                        case '1':
+                            _spriteBatch.Draw(text,position, rect2, Color.White);
                             break;
                     }
                 }
             }
-        }*/
+        }
 
     }
 }

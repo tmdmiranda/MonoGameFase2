@@ -12,7 +12,6 @@ namespace Projeto2_MG
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        TextureHandler textureHandler;
 
         private int GAME_WIDTH = 1300;
         private int GAME_HEIGHT = 700;
@@ -24,7 +23,6 @@ namespace Projeto2_MG
         private State _nextState;
         private Texture2D[] textures = new Texture2D[10];
         private Texture2D backgroundTexture;
-        private static TextureHandler slicer;
         public Matrix _screenScaleMatrix;
         private bool _isResizing;
         private Viewport _viewport;
@@ -47,7 +45,6 @@ namespace Projeto2_MG
             IsMouseVisible = true;
             Window.AllowUserResizing = true;
             Window.ClientSizeChanged += OnClientSizeChanged;
-            textureHandler = new TextureHandler(Content, GraphicsDevice);
 
         }
 
@@ -84,8 +81,7 @@ namespace Projeto2_MG
             Services.AddService(spriteBatch);
             updateScreenScaleMatrix();
             xxyy = new Rectangle[10];
-            xxyy[0] = new Rectangle(384, 320,tilSize * 10,tilSize * 10);
-            xxyy[1] = new Rectangle(192, 0, tilSize, tilSize);
+            map.LoadMap("level1.txt");
             base.Initialize();
         }
 
@@ -94,7 +90,8 @@ namespace Projeto2_MG
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             textures[0] = getTexture("tiles");
-            
+            xxyy[0] = new Rectangle(384, 320,tilSize,tilSize);
+            xxyy[1] = new Rectangle(768, 0, tilSize, tilSize);
             _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
         }
 
@@ -123,7 +120,8 @@ namespace Projeto2_MG
             GraphicsDevice.Viewport = _viewport;
 
             spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
-            _currentState.Draw(gameTime, spriteBatch);
+           // _currentState.Draw(gameTime, spriteBatch);
+            map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1]);
           //  for (int i = 0; i < GAME_WIDTH; i += tilSize)
           //  {
           //      for (int j = 0; j < GAME_HEIGHT; j += tilSize)
