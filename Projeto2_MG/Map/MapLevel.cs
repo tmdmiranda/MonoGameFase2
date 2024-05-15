@@ -15,9 +15,15 @@ namespace Projeto2_MG.Map
 {
     public class MapLevel
     {
+        public int Height, Width;
         public char[,] map;
         public int tileSize = 64;
         public List<Point> tiles;
+
+
+
+
+
 
         public void LoadMap(string levelFile)
         {
@@ -37,15 +43,17 @@ namespace Projeto2_MG.Map
 
         }
 
-        public void drawMap(SpriteBatch _spriteBatch, Texture2D text, Rectangle rect1, Rectangle rect2)
+        public void drawMap(SpriteBatch _spriteBatch, Texture2D text, Rectangle rect1,Rectangle rect2, Rectangle rect3)
         {
+            Height = 1920;
+            Width = 1080;
             Vector2 position = new Vector2();
             for (int x = 0; x < map.GetLength(0); x++)
             {
                 for (int y = 0; y < map.GetLength(1); y++)
                 {
-                    position.X = x * tileSize;
-                    position.Y = y * tileSize;
+                    position.X = x * tileSize / 3;
+                    position.Y = y  * tileSize / 3;
                     switch (map[x, y])
                     {
                         case '0':
@@ -53,6 +61,9 @@ namespace Projeto2_MG.Map
                             break;
                         case '1':
                             _spriteBatch.Draw(text, position, rect2, Color.White);
+                            break;
+                        case '2':
+                            _spriteBatch.Draw(text,position, rect3, Color.White);
                             break;
                     }
                 }
