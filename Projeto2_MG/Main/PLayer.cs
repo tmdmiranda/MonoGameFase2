@@ -14,6 +14,7 @@ namespace Projeto2_MG.Main
 {
      class Player : AnimatedSprite
     {
+        float mySpeed = 50;
 
         public Player(Vector2 pos) : base(pos) 
         {
@@ -26,23 +27,35 @@ namespace Projeto2_MG.Main
             AddAnimation(20);
         }
 
+        public override void Update(GameTime gameTime)
+        {
+            sDirection = Vector2.Zero;
+            HandleInput(Keyboard.GetState());
+
+            float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            sDirection *= mySpeed;
+            sPosition *= (sDirection * deltaTime);
+
+            base.Update(gameTime);
+        }
+
         public void HandleInput(KeyboardState keyState)
         {
             if(keyState.IsKeyDown(Keys.W)) 
             {
-
+                sDirection += new Vector2(0, -1);
             }
             if (keyState.IsKeyDown(Keys.A))
             {
-
+                sDirection += new Vector2(-1, 0);
             }
             if (keyState.IsKeyDown(Keys.S))
             {
-
+                sDirection += new Vector2(0, 1);
             }
             if (keyState.IsKeyDown(Keys.D))
             {
-
+                sDirection += new Vector2(1, 0);
             }
         }
     }
