@@ -87,7 +87,7 @@ namespace Projeto2_MG.Main
                 {
                     activeframe = 0;
                 }
-                spriteBatch.Draw(runningTextures[activeframe], new Rectangle(100, 100, 100, 100), Color.White);
+                //spriteBatch.Draw(runningTextures[activeframe], new Rectangle(32, 32, 25, 25), Color.White);
             }
             spriteBatch.End();
         }

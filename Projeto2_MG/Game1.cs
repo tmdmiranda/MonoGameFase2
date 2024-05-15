@@ -14,6 +14,9 @@ namespace Projeto2_MG
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Texture2D[] runningTextures;
+        int counter;
+        int activeframe;
         private int GAME_WIDTH = 1920;
         private int GAME_HEIGHT = 1080;
         private int _virtualWidth = 1920;
@@ -35,7 +38,7 @@ namespace Projeto2_MG
             _nextState = state;
         }
 
-        public Texture2D getTexture(string textureName, int x)
+        public Texture2D getTexture(string textureName)
         {
                 return Content.Load<Texture2D>("Textures/" + textureName);
         }
@@ -140,8 +143,9 @@ namespace Projeto2_MG
               }
           }
           map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1], xxyy[3]);
-          // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
-           //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
+            // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
+            //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
+            spriteBatch.Draw(runningTextures[activeframe], new Rectangle(32, 32, 32, 32), Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
