@@ -15,6 +15,8 @@ namespace Projeto2_MG.Main
 
         public float Speed { get; set; }
 
+        public bool IsDead { get; set; }
+
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);

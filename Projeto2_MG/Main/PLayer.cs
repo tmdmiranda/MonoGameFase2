@@ -8,17 +8,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework.Content;
+using Projeto2_MG.Control.Guns;
 
 namespace Projeto2_MG.Main
 {
     public class Player : Entity
     {
         public float rotation;  // Adiciona a variável para armazenar a rotação
+        public Gun Weapon { get; set; }
+        private Gun _weapon1;
+        private Gun _weapon2;
+        protected float cooldown;
+        protected float cooldownLeft;
+        public static float TotalSeconds { get; set; }
+        public bool Reloading { get; protected set; }
 
         public Player(Vector2 pos) : base(pos)
         {
             framesPerSecond = 10;
             Speed = 150;
+        }
+
+        public void Reset()
+        {
+            //_weapon1 = new Pistol();
+            //_weapon2 = new Rifle();
+            IsDead = false;
         }
 
         public void LoadContent(ContentManager content)
@@ -46,6 +61,15 @@ namespace Projeto2_MG.Main
             // Calcula a rotação em radianos
             rotation = (float)Math.Atan2(direction.Y, direction.X);
 
+            if (cooldownLeft > 0)
+            {
+                cooldownLeft -= TotalSeconds = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            }
+            else if (Reloading)
+            {
+                Reloading = false;
+            }
+
             base.Update(gameTime);
         }
 
@@ -67,6 +91,11 @@ namespace Projeto2_MG.Main
             {
                 sDirection += new Vector2(1, 0);
             }
+        }
+
+        public void SwapWeapon()
+        {
+            //Gun = (Gun == _weapon1) ? _weapon2 : _weapon1;
         }
 
         public override void Draw(SpriteBatch spriteBatch)

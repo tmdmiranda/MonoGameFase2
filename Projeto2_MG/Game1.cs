@@ -157,7 +157,7 @@ namespace Projeto2_MG
 
         protected override void Draw(GameTime gameTime)
         {
-            spriteBatch.Begin(); // Use a transformação da câmera, se necessário
+            spriteBatch.Begin(transformMatrix: _screenScaleMatrix); // Use a transformação da câmera, se necessário
             GraphicsDevice.Clear(Color.Black);
 
             GraphicsDevice.Viewport = _viewport;

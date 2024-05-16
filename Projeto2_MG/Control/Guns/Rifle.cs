@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Projeto2_MG.Control.Guns
 {
-    public class Rifle: Gun
+    /*public class Rifle: Gun
     {
         public Rifle()
         {
@@ -16,5 +16,5 @@ namespace Projeto2_MG.Control.Guns
             Ammo = maxAmmo;
             reloadTime = 2f;
         }
-    }
+    }*/
 }

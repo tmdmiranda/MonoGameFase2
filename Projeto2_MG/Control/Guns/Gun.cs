@@ -21,5 +21,25 @@ namespace Projeto2_MG.Control.Guns
             cooldownLeft = 0f;
             Reloading = false;
         }
+        public abstract void Reload();
+
+        protected abstract void CreateProjectiles(Player player);
+
+        public virtual void Fire(Player player)
+        {
+            if (cooldownLeft > 0 || Reloading) return;
+
+            Ammo--;
+            if (Ammo > 0)
+            {
+                cooldownLeft = cooldown;
+            }
+            else
+            {
+                Reload();
+            }
+
+            CreateProjectiles(player);
+        }
     }
 }
