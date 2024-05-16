@@ -1,1 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/background.png","/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/bin/DesktopGL/Content/background.xnb","TextureProcessor","Texture2DContent",66786,3120085,0.6997369
+"/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/Controls/Button (1).png","/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/bin/DesktopGL/Content/Controls/Button.xnb","TextureProcessor","Texture2DContent",324,25685,0.0277704
+"/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/Fonts/Font.spritefont","/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/bin/DesktopGL/Content/Fonts/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0.2987753
+"/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/PistolMove/survivor-move_handgun.png","/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/bin/DesktopGL/Content/PistolMove/survivor-move_handgun.xnb","TextureProcessor","Texture2DContent",381117,123925,0.0546234
+"/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/Textures/tiles.png","/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/bin/DesktopGL/Content/Textures/tiles.xnb","TextureProcessor","Texture2DContent",665490,4194389,0.6071286

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Projeto2_MG.Main
 {
-    abstract class AnimatedSprite
+    public abstract class AnimatedSprite
     {
         public Vector2 sPosition;
         protected Texture2D sTexture;

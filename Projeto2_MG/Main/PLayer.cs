@@ -12,10 +12,11 @@ using System.Diagnostics.Metrics;
 
 namespace Projeto2_MG.Main
 {
-     class Player : AnimatedSprite
+     class Player : Entity
     {
         float mySpeed = 150;
 
+        
         public Player(Vector2 pos) : base(pos) 
         {
             framesPerSecond = 10;
