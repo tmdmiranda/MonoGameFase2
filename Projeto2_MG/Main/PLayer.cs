@@ -14,12 +14,12 @@ namespace Projeto2_MG.Main
 {
      class Player : Entity
     {
-        float mySpeed = 150;
 
         
         public Player(Vector2 pos) : base(pos) 
         {
             framesPerSecond = 10;
+            Speed = 150;
         } 
 
         public void LoadContent(ContentManager content)
@@ -34,7 +34,7 @@ namespace Projeto2_MG.Main
             HandleInput(Keyboard.GetState());
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            sDirection *= mySpeed;
+            sDirection *= Speed;
             sPosition += (sDirection * deltaTime);
 
             base.Update(gameTime);
