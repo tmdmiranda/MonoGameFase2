@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/Fonts/Font.spritefont</SourceFile>
-  <SourceTime>2024-05-16T11:14:13.7929829+01:00</SourceTime>
-  <DestFile>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/bin/DesktopGL/Content/Fonts/Font.xnb</DestFile>
-  <DestTime>2024-05-16T11:19:48.9598788+01:00</DestTime>
+  <SourceFile>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/Fonts/Font.spritefont</SourceFile>
+  <SourceTime>2024-05-15T11:51:59.6401026+01:00</SourceTime>
+  <DestFile>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/bin/DesktopGL/Content/Fonts/Font.xnb</DestFile>
+  <DestTime>2024-05-16T12:05:56.8960766+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

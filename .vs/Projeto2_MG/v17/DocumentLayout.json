@@ -1,58 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\",
+  "WorkspaceRootPath": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\projeto2_mg\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\projeto2_mg\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\main\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\main\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\gon\u00E7alo\\desktop\\github\\mg2\\projeto2_mg\\map\\maplevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\map\\maplevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\main\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\main\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\projeto2_mg\\main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\projeto2_mg\\main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\spritem\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\spritem\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\managers\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\managers\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\projeto2_mg\\main\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\main\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\spritem\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\spritem\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\control\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\control\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\states\\creditstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\states\\creditstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\bigep\\source\\repos\\tmdmiranda\\monogamefase2\\projeto2_mg\\states\\menustate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\states\\menustate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\projeto2_mg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|c:\\users\\gon\u00E7alo\\desktop\\github\\mg2\\projeto2_mg\\main\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1130D2E5-21C0-4F92-B7E5-7E56DD95361D}|Projeto2_MG\\Projeto2_MG.csproj|solutionrelative:projeto2_mg\\main\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,183 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{df72777a-9fad-4a96-a35f-866efd0a1ce4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapLevel.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Map\\MapLevel.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\Map\\MapLevel.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Map\\MapLevel.cs",
+              "RelativeToolTip": "Projeto2_MG\\Map\\MapLevel.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:08:24.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AnimatedSprite.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\AnimatedSprite.cs",
+              "RelativeDocumentMoniker": "Projeto2_MG\\Main\\AnimatedSprite.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\AnimatedSprite.cs",
+              "RelativeToolTip": "Projeto2_MG\\Main\\AnimatedSprite.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA1wD0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:58:21.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PLayer.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Main\\PLayer.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\PLayer.cs",
               "RelativeDocumentMoniker": "Projeto2_MG\\Main\\PLayer.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Main\\PLayer.cs",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Main\\PLayer.cs",
               "RelativeToolTip": "Projeto2_MG\\Main\\PLayer.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBAAAAAbAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA8wFQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T17:55:04.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnimatedSprite.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Main\\AnimatedSprite.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\Main\\AnimatedSprite.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Main\\AnimatedSprite.cs",
-              "RelativeToolTip": "Projeto2_MG\\Main\\AnimatedSprite.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T16:59:51.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Game1.cs",
               "RelativeDocumentMoniker": "Projeto2_MG\\Game1.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Game1.cs*",
+              "ToolTip": "C:\\Users\\Gon\u00E7alo\\Desktop\\Github\\MG2\\Projeto2_MG\\Game1.cs*",
               "RelativeToolTip": "Projeto2_MG\\Game1.cs*",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAAAI0AAAAfAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwvzgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T13:34:40.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Main\\Camera.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\Main\\Camera.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Main\\Camera.cs",
-              "RelativeToolTip": "Projeto2_MG\\Main\\Camera.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T16:49:47.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WaveManager.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Managers\\WaveManager.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\Managers\\WaveManager.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Managers\\WaveManager.cs",
-              "RelativeToolTip": "Projeto2_MG\\Managers\\WaveManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:22:20.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Move.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\SpriteM\\Move.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\SpriteM\\Move.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\SpriteM\\Move.cs",
-              "RelativeToolTip": "Projeto2_MG\\SpriteM\\Move.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:22:18.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Sprite.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\SpriteM\\Sprite.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\SpriteM\\Sprite.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\SpriteM\\Sprite.cs",
-              "RelativeToolTip": "Projeto2_MG\\SpriteM\\Sprite.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:22:16.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MenuState.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\States\\MenuState.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\States\\MenuState.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\States\\MenuState.cs",
-              "RelativeToolTip": "Projeto2_MG\\States\\MenuState.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAgwFkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:21:52.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreditState.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\States\\CreditState.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\States\\CreditState.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\States\\CreditState.cs",
-              "RelativeToolTip": "Projeto2_MG\\States\\CreditState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:21:06.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Button.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Control\\Button.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\Control\\Button.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Control\\Button.cs",
-              "RelativeToolTip": "Projeto2_MG\\Control\\Button.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:20:32.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Component.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Component.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\Component.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Component.cs",
-              "RelativeToolTip": "Projeto2_MG\\Component.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:20:18.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Program.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\Program.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Program.cs",
-              "RelativeToolTip": "Projeto2_MG\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T16:50:05.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Main\\Enemy.cs",
-              "RelativeDocumentMoniker": "Projeto2_MG\\Main\\Enemy.cs",
-              "ToolTip": "C:\\Users\\BigEp\\source\\repos\\tmdmiranda\\MonoGameFase2\\Projeto2_MG\\Main\\Enemy.cs",
-              "RelativeToolTip": "Projeto2_MG\\Main\\Enemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T16:50:04.081Z",
               "EditorCaption": ""
             }
           ]

@@ -11,11 +11,11 @@ namespace Projeto2_MG.Main
     public abstract class AnimatedSprite
     {
         public Vector2 sPosition;
-        protected Texture2D sTexture;
-        private Rectangle[] sRectangles;
+        public Texture2D sTexture;
+        public Rectangle[] sRectangles;
         private double TimeElapsed;
         private double timeToUpdate;
-        private int frameIndex;
+        public int frameIndex;
         protected Vector2 sDirection = Vector2.Zero;
 
 
@@ -59,7 +59,7 @@ namespace Projeto2_MG.Main
             }
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
           spriteBatch.Draw(sTexture, 
           sPosition, 

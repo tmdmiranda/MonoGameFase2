@@ -20,11 +20,6 @@ namespace Projeto2_MG.Map
         public int tileSize = 64;
         public List<Point> tiles;
 
-
-
-
-
-
         public void LoadMap(string levelFile)
         {
             tiles = new List<Point>();

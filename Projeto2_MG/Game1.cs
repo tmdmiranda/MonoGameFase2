@@ -54,7 +54,7 @@ namespace Projeto2_MG
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            IsMouseVisible = false;
+            IsMouseVisible = true;
             Window.AllowUserResizing = true;
             Window.ClientSizeChanged += OnClientSizeChanged;
         }
@@ -157,7 +157,7 @@ namespace Projeto2_MG
 
         protected override void Draw(GameTime gameTime)
         {
-           spriteBatch.Begin(transformMatrix: _screenScaleMatrix);
+            spriteBatch.Begin(); // Use a transformação da câmera, se necessário
             GraphicsDevice.Clear(Color.Black);
 
             GraphicsDevice.Viewport = _viewport;
@@ -167,27 +167,25 @@ namespace Projeto2_MG
             size = _camera.Length2Pixels(size);
 
             _camera.LookAt(new Vector2(20, 7.5f));
-            // _currentState.Draw(gameTime, spriteBatch);
 
+            // Desenha o background e o mapa
             for (int i = 0; i < GAME_WIDTH; i += tilSize / 3)
-           {
-               for (int j = 0; j < GAME_HEIGHT; j += tilSize / 3)
-               {
-                   spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[2], Color.White);
-               }
-           }
-            map.drawMap(spriteBatch, textures[0], xxyy[0],xxyy[1], xxyy[3]);
-            // spriteBatch.Draw(textures[0], new Vector2(256, 256), xxyy[1], Color.White);
-            //spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
+            {
+                for (int j = 0; j < GAME_HEIGHT; j += tilSize / 3)
+                {
+                    spriteBatch.Draw(textures[0], new Vector2(i, j), xxyy[2], Color.White);
+                }
+            }
+            map.drawMap(spriteBatch, textures[0], xxyy[0], xxyy[1], xxyy[3]);
 
-
-
+            // Desenha o jogador
             player.Draw(spriteBatch);
 
             spriteBatch.End();
 
             base.Draw(gameTime);
         }
+
 
         private void updateScreenScaleMatrix()
         {

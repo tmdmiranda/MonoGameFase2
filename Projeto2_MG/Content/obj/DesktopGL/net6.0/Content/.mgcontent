@@ -4,11 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/background.png</File>
-    <File>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/Controls/Button (1).png</File>
-    <File>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/Fonts/Font.spritefont</File>
-    <File>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/PistolMove/survivor-move_handgun.png</File>
-    <File>/home/tmdmiranda/mgf2/MonoGameFase2/Projeto2_MG/Content/Textures/tiles.png</File>
+    <File>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/background.png</File>
+    <File>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/Controls/Button (1).png</File>
+    <File>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/Fonts/Font.spritefont</File>
+    <File>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/PistolMove/survivor-move_handgun.png</File>
+    <File>C:/Users/Gonçalo/Desktop/Github/MG2/Projeto2_MG/Content/Textures/tiles.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
